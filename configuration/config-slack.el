@@ -3,15 +3,7 @@
 (use-package slack
   :commands (slack-start)
   :custom
-  (slack-prefer-current-team t)
-
-  :config
-  (slack-register-team
-   :name "sittv"
-   :default t
-   :token "xoxs-11396380576-235943641520-816539899766-5af98abe07cb66e67c84bd4e8db4c547a45de9b45b762bb433309b26c3ade1b5"
-   :subscribed-channels '()
-   :full-and-display-names t))
+  (slack-prefer-current-team t))
 
 
 (use-package all-the-icons
