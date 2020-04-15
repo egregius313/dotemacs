@@ -260,3 +260,5 @@
 
 
 (use-package pdf-tools)
+
+(load-file (expand-file-name ".custom.el" user-emacs-directory))

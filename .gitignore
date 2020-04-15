@@ -33,3 +33,5 @@ tramp
 # Don't sync my scores in games
 /games/*-score*
 
+# Private customization file
+/.custom.el
