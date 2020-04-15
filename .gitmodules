@@ -4,3 +4,6 @@
 [submodule "lang-servers/erlang_ls"]
 	path = lang-servers/erlang_ls
 	url = https://github.com/erlang-ls/erlang_ls
+[submodule "modules/emacs-libvterm"]
+	path = modules/emacs-libvterm
+	url = git@github.com:akermu/emacs-libvterm.git
