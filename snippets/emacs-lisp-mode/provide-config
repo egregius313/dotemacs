@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: provide-config
+# key: pr-conf
+# binding: C-c s-p
+# condition: (configuration-configuration-p (buffer-file-name))
+# --
+$0
+(provide '`(configuration-name)`)

@@ -1,0 +1,6 @@
+[submodule "lang-servers/python-language-server"]
+	path = lang-servers/python-language-server
+	url = https://github.com/Microsoft/python-language-server.git
+[submodule "lang-servers/erlang_ls"]
+	path = lang-servers/erlang_ls
+	url = https://github.com/erlang-ls/erlang_ls

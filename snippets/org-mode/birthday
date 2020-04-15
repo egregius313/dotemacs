@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: birthday
+# key: birthday
+# --
+%%(org-anniversary ${1:2000} ${2:12} ${3:25}) ${4:Jesus'} birthday

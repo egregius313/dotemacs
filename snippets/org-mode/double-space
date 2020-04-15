@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: double-space
+# key: 2xspace
+# --
+#+LaTeX_HEADER: \linespread{2}
+$0

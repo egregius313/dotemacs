@@ -1,0 +1,35 @@
+# Don't sync automatically saved files
+/auto-save-list
+# Don't sync my recently visited files
+recentf
+\#recentf\#
+
+# Byte-compiled and native compiled Emacs packages
+*.elc
+*.eln
+
+# Where the straight package manager stores its build files
+straight/
+
+session.*
+
+# Emacs history
+history
+
+# Don't save my tramp history
+tramp
+
+# Don't save shell history for Emacs
+/eshell/history
+/eshell/lastdir
+
+# Org-mode id tracking
+.org-id-locations
+
+# Do not save cookies
+/url/cookies
+/request/curl-cookie-jar
+
+# Don't sync my scores in games
+/games/*-score*
+

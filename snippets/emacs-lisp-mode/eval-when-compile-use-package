@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: use-package when compile
+# key: ewcup
+# --
+(eval-when-compile
+  (require 'use-package))
+(eval-and-compile
+  (require 'bind-key))
