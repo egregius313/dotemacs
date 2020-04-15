@@ -239,14 +239,6 @@
 
 (require 'org-capture)
 
-(defvar egregius313/groceries-sheet
-  "https://docs.google.com/spreadsheets/d/1lNid-IgEu_6FjsbDbrBmgd4jWZ9REonplABdko59nmM/edit#gid=126846868"
-  "Groceries spreadsheet")
-(add-to-list
- 'org-capture-templates
- `("S" "Shoprite" entry (file+headline "~/org/agendas/food.org" "Go to Shoprite")
-   "* TODO Go to Shoprite\n    SCHEDULED: %t\n* TODO [[https://docs.google.com/spreadsheets/d/1lNid-IgEu_6FjsbDbrBmgd4jWZ9REonplABdko59nmM/edit#gid=126846868][Enter Shoprite Receipts]]\n    DEADLINE: %t"))
-
 (use-package alloy-mode
   :defer t
   :straight (alloy-mode :type git :host github :repo "egregius313/alloy-mode"))
