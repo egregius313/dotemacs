@@ -1,4 +1,9 @@
 ;;; modeline.el -- Format modeline -*- lexical-binding: t -*-
+(eval-when-compile
+  (require 'use-package))
+(eval-and-compile
+  (require 'bind-key))
+
 
 ;; Used by use-package for the :diminish keyword to work. Helps remove
 ;; minor modes from the modeline when unnecessary.

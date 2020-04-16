@@ -1,4 +1,8 @@
 ;; -*- lexical-binding: t -*-
+(eval-when-compile
+  (require 'use-package))
+(eval-and-compile
+  (require 'bind-key))
 
 (defun dired-do-xdg-open (arg)
   "Opens list of files with xdg-open one by one, waiting for each to finish."

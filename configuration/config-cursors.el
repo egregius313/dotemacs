@@ -1,4 +1,8 @@
 ;;; config-cursors.el --- multiple cursors setup -*- lexical-binding: t -*-
+(eval-when-compile
+  (require 'use-package))
+(eval-and-compile
+  (require 'bind-key))
 
 (use-package phi-search
   :defer 5)

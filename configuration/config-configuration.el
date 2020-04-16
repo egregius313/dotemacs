@@ -1,5 +1,8 @@
 ;;; config-configuration.el -*- lexical-binding: t -*-
-
+(eval-when-compile
+  (require 'use-package))
+(eval-and-compile
+  (require 'bind-key))
 (eval-when-compile
   (require 'dash))
 (require 'f)

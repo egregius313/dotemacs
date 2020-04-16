@@ -1,4 +1,8 @@
 ;;; -*- lexical-binding: t -*-
+(eval-when-compile
+  (require 'use-package))
+(eval-and-compile
+  (require 'bind-key))
 
 (use-package tuareg
   :mode ("\\.ocamlinit\\'")

@@ -1,4 +1,9 @@
 ;;; -*- lexical-binding: t -*-
+(eval-when-compile
+  (require 'use-package))
+(eval-and-compile
+  (require 'bind-key))
+
 
 ;;; Revert buffers
 (use-package autorevert

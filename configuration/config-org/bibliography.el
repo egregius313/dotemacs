@@ -2,6 +2,10 @@
 
 (defvar my/org-bibliography-directory (expand-file-name "~/org/bibliography"))
 
+(use-package parsebib)
+(use-package biblio)
+(use-package helm-bibtex)
+
 (use-package org-ref
   :custom
   (reftex-default-bibliography (list (expand-file-name "references.bib" my/org-bibliography-directory)))
