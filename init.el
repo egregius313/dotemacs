@@ -191,7 +191,8 @@
   (markdown-mode . orgtbl-mode))
 
 
-(load-configuration org/bibliography)
+(ignore-errors
+   (load-configuration org/bibliography))
 
 (load-configuration dired)
 (load-configuration autocomplete)
@@ -253,4 +254,8 @@
 
 (use-package pdf-tools)
 
-(load-file (expand-file-name ".custom.el" user-emacs-directory))
+(when (getenv "EXWM")
+  (load-configuration window-manager)
+  (exwm-init))
+
+(load (expand-file-name ".custom.el" user-emacs-directory) 'noerror)
