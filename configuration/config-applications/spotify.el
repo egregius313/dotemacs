@@ -1,4 +1,10 @@
 ;;; config-application/spotify.el -*- lexical-binding: t -*-
+(eval-when-compile
+  (require 'use-package))
+(eval-and-compile
+  (require 'bind-key))
+
+
 (require 'hydra)
 
 (use-package spot4e

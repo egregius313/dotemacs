@@ -22,4 +22,6 @@
 
 (use-package use-package-chords)
 
+(use-package hydra)
+
 (provide 'config-keys)

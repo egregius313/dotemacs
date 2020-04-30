@@ -1,4 +1,8 @@
 ;;; -*- lexical-binding: t -*-
+(eval-when-compile
+  (require 'use-package))
+(eval-and-compile
+  (require 'bind-key))
 (require 'config-lsp)
 
 (use-package rust-mode

@@ -1,6 +1,7 @@
 ;; -*- lexical-binding: t -*-
 (eval-when-compile
   (require 'use-package))
+(require 'bind-key)
 
 (use-package page-break-lines
   :hook
