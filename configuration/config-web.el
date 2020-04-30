@@ -5,13 +5,21 @@
 (use-package simple-httpd)
 
 (use-package impatient-mode
-  :after simple-httpd)
+  :after simple-httpd
+
+  :custom
+  (impatient-mode-delay 0.5))
 
 (use-package emmet-mode
   :hook
   (html-mode . emmet-mode))
 
 (use-package tagedit
+  :bind
+  (:map tagedit-mode-map
+		("C-<left>" . tagedit-forward-barf-tag)
+		("C-<right>" . tagedit-forward-slurp-tag))
+  
   :hook
   (html-mode . tagedit-mode))
 

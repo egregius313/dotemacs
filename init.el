@@ -223,6 +223,8 @@
 ;; Spotify management
 (load-configuration applications/spotify)
 
+(load-configuration web)
+
 (use-package flymake
   :straight nil
   :bind
